@@ -8,7 +8,7 @@ nav
 	background-color: #fff !important;
 	box-shadow: none !important;
 }
-.row
+#row
 {
 	width: 95%;
 	background-color: #FFFFFF !important;
@@ -85,7 +85,7 @@ input[type=text]
 .side-nav > li a
 {
 	font-size: 28px !important;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 .side-nav > li a:hover
 {
@@ -106,4 +106,8 @@ ul > li i
 .side-nav > li #to:hover
 {
 	background-color: #FFE5BE !important;
+}
+.row .s12
+{
+
 }
