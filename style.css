@@ -1,0 +1,85 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.row
+{
+	background-color: #FFFFFF !important;
+	font-size: 30px;
+}
+.row .col.l4
+{
+	width: 0;
+	padding: 0;
+}
+.row .col.l2
+{
+	text-align: center;
+	border-right: 1px dotted #000000;
+}
+.row .col a
+{
+	color: black;
+}
+.row .col.l2:hover
+{
+	background-color: #FFE5BE;
+}
+.row .col.l2:hover:last-child
+{
+	background-color: white !important;
+}
+input[type=text]
+{
+	font-size: 25px !important;
+	text-align: center;
+	color: #000000 !important;
+
+}
+.row .col.s1
+{
+	text-align: center;
+	min-height: 72px;
+
+}
+.row .col.s10
+{
+	min-height: 72px;
+}
+#logo
+{
+	height: 305px;
+	width: 80%;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.side-nav
+{
+	background-color: #FFFEEE !important;
+}
+#slide-out 
+{
+	width: 350px; 
+}
+#slide-out  li i
+{
+	font-size: 34px !important;
+}
+.side-nav > li a
+{
+	font-size: 28px !important;
+}
+.side-nav > li a:hover
+{
+	background-color: #FFE5BE !important;
+}
+.material-icons
+{
+	font-size: 60px !important;
+}
+ul > li i
+{
+	font-size: 10px !important;
+}
