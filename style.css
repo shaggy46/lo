@@ -3,8 +3,14 @@ body
 	margin: 0;
 	padding: 0;
 }
+nav
+{
+	background-color: #fff !important;
+	box-shadow: none !important;
+}
 .row
 {
+	width: 95%;
 	background-color: #FFFFFF !important;
 	font-size: 30px;
 }
@@ -16,12 +22,16 @@ body
 .row .col.l1
 {
 	min-height: 64px;
-	background-color: #EFEFEF;
+}
+nav a.button-collapse
+{
+	display:inline !important;
+	
 }
 .row .col.l2
 {
 	text-align: center;
-	border-right: 1px dotted #000000;
+	border-left: 1px dotted #000000;
 }
 .row .col a
 {
@@ -56,7 +66,7 @@ input[type=text]
 {
 	height: 305px;
 	width: 80%;
-	margin-top: 2px;
+	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -75,6 +85,7 @@ input[type=text]
 .side-nav > li a
 {
 	font-size: 28px !important;
+	letter-spacing: 2px;
 }
 .side-nav > li a:hover
 {
