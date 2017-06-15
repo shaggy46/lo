@@ -14,12 +14,12 @@ nav
 	background-color: #FFFFFF !important;
 	font-size: 30px;
 }
-.row .col.l3
+.row .col.m3
 {
 	width: 0;
 	padding: 0;
 }
-.row .col.l1
+.row .col.m1
 {
 	min-height: 64px;
 }
@@ -28,7 +28,7 @@ nav a.button-collapse
 	display:inline !important;
 	
 }
-.row .col.l2
+.row .col.m2
 {
 	text-align: center;
 	border-left: 1px dotted #000000;
@@ -37,11 +37,11 @@ nav a.button-collapse
 {
 	color: black;
 }
-.row .col.l2:hover
+.row .col.m2:hover
 {
 	background-color: #FFE5BE;
 }
-.row .col.l2:hover:last-child
+.row .col.m2:hover:last-child
 {
 	background-color: white !important;
 }
@@ -107,13 +107,7 @@ ul > li i
 {
 	background-color: #FFE5BE !important;
 }
-<<<<<<< HEAD
-.row .s12
-{
-
-=======
 .right-align
 {
 	margin-right: 3%;
->>>>>>> proba
 }
