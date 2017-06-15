@@ -14,12 +14,12 @@ nav
 	background-color: #FFFFFF !important;
 	font-size: 30px;
 }
-.row .col.l3
+.row .col.m3
 {
 	width: 0;
 	padding: 0;
 }
-.row .col.l1
+.row .col.m1
 {
 	min-height: 64px;
 }
@@ -28,7 +28,7 @@ nav a.button-collapse
 	display:inline !important;
 	
 }
-.row .col.l2
+.row #up
 {
 	text-align: center;
 	border-left: 1px dotted #000000;
@@ -37,11 +37,11 @@ nav a.button-collapse
 {
 	color: black;
 }
-.row .col.l2:hover
+.row #up:hover
 {
 	background-color: #FFE5BE;
 }
-.row .col.l2:hover:last-child
+.row #up:hover:last-child
 {
 	background-color: white !important;
 }
@@ -57,10 +57,6 @@ input[type=text]
 	text-align: center;
 	min-height: 72px;
 
-}
-.row .col.s10
-{
-	min-height: 72px;
 }
 #logo
 {
@@ -110,4 +106,37 @@ ul > li i
 .right-align
 {
 	margin-right: 3%;
+}
+#navrow
+{
+	font-size: 30px;
+	text-align: center;
+}
+#navdol
+{
+	min-height: 45px;
+	border-right: 1px solid #FFFFFF;
+}
+#navdol:last-child
+{
+	border:none;
+}
+
+#navrow #navdol ul 
+{
+	display: none;
+}
+#navrow #navdol:hover ul
+{
+	display: block;
+}
+#navrow #navdol ul > li
+{
+	background-color:#FFE5BE;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+#navrow #navdol ul > li:hover
+{
+	background-color:#EED4AE;
 }
