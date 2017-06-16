@@ -147,18 +147,25 @@ nav .button-collapse:hover
 	font-size:24px;
 	border-right:1px dotted #000000;
 }
+.dropdown-content li:first-child > a
+{
+    height: 64px;
+    font-size:25px;
+    border-bottom:1px dotted #000000;
+    background-color:#FFF8E1; 
 
+}
 .dropdown-content li > a
 {
 	color:#000000 !important;
 	font-size:20px;
-	
 }
 #navdol
 {
 	background-color: #FFF8E1 !important;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px)
+ {
     .nav-wrapper {
         display:none;
-    }
+ }
