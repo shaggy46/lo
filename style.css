@@ -103,11 +103,6 @@ ul > li i
 {
 	background-color: #FFE5BE !important;
 }
-.right
-{
-
-float:initial !important;	
-}
 .nav-wrapper
 {
 	background-color:#FFF8E1;
@@ -122,15 +117,18 @@ float:initial !important;
 
 #ulcont
 {
-width:84%;
-margin-left:auto;
-margin-right:auto;
+	width:84%;
+	margin-left:auto;
+	margin-right:auto;
 
 }
 #ulcont > ul > li
 {
-width:25%;
-
+	width:25%;
+}
+#ulcont > ul > li:first-child
+{
+		border-left:1px dotted #000000;
 }
 .dropdown-button
 {
@@ -146,7 +144,10 @@ width:25%;
 	font-size:20px;
 	
 }
-
+#navdol
+{
+	background-color: #FFF8E1 !important;
+}
 @media only screen and (max-width: 900px) {
     .nav-wrapper {
         display:none;
