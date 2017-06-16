@@ -107,36 +107,32 @@ ul > li i
 {
 	margin-right: 3%;
 }
-#navrow
+.nav-wrapper
 {
-	font-size: 30px;
-	text-align: center;
+	background-color:#FFF8E1;
+	width:100%;
+	
 }
-#navdol
+.nav-wrapper > ul:first-child
 {
-	min-height: 45px;
-	border-right: 1px solid #FFFFFF;
+	border-left:1px dotted #000000;
+	
 }
-#navdol:last-child
+.nav-wrapper > ul:last-child
 {
-	border:none;
+	margin-right:12%;
+	
 }
-
-#navrow #navdol ul 
+.dropdown-button
 {
-	display: none;
+	background-color:#FFF8E1;
+	color:#000000;
+	font-size:27px;
+	border-right:1px dotted #000000;
 }
-#navrow #navdol:hover ul
+.dropdown-content li > a
 {
-	display: block;
-}
-#navrow #navdol ul > li
-{
-	background-color:#FFE5BE;
-	margin-bottom: 10px;
-	border-radius: 10px;
-}
-#navrow #navdol ul > li:hover
-{
-	background-color:#EED4AE;
+	color:#000000 !important;
+	font-size:20px;
+	
 }
