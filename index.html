@@ -8,18 +8,24 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
           <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	</head>
 	<body>
+	 
 		<nav>
 		    <div class="row" id="row">
           <div class="col m3 s0"></div>
           <div class="col m1 s6">
             <div class="hide-on-med-and-up">
+<<<<<<< HEAD
               <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+=======
+              <a href="#" data-activates="slide-out" class="button-collapse btn btn-floating pulse"><i class="material-icons">menu</i></a>
+>>>>>>> Próba-II
             </div>
           </div>
           <div class="col m2 s6" id="up"><a href="#">Plan lekcji</a></div>
@@ -37,7 +43,11 @@
   		<img src="top.png" width="100%" height="290px">
   	</div>
 	
+<<<<<<< HEAD
   	  <!-- TU ZACZYNAJĄ SIE SCHODY -->
+=======
+  	  <!-- SIDE NAV-->
+>>>>>>> Próba-II
     <ul id="slide-out" class="side-nav">
           <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
@@ -83,7 +93,11 @@
                 <a class="collapsible-header">Dla rodzica</a>
                 <div class="collapsible-body">
                   <ul>
+<<<<<<< HEAD
                     <li id="to"><a href="#!"">Współpraca z rodzicami</a></li>
+=======
+                    <li id="to"><a href="#!">Współpraca z rodzicami</a></li>
+>>>>>>> Próba-II
                     <li><a href="#!">Konsultacje</a></li>
                     <li><a href="#!">Rada Rodziców</a></li>
                     <li><a href="#!">Regulamin</a></li>
@@ -94,6 +108,7 @@
           </li>
         </ul>
   
+<<<<<<< HEAD
 
      <!-- KONIEC NAVBARA -->
 
@@ -134,6 +149,53 @@
            </div>
            <div class="col m2 s0 amber" id="navdol"></div>
        </div>
+=======
+
+     <!-- KONIEC NAVBARA GÓRNEGO/POCZĄTEK DOLNEGO -->
+		 
+		   <ul id="dropdown1" class="dropdown-content">
+			        <li><a href="#!">O szkole</a></li>
+                    <li><a href="#!">Kadra/pracownicy</a></li>
+                    <li><a href="#!">Klasy/profile</a></li>
+                    <li><a href="#!">Dokumenty</a></li>
+			</ul>
+			<ul id="dropdown2" class="dropdown-content">
+			  <li><a href="#!">Dlaczego my?</a></li>
+              <li><a href="#!">Rekrutacja</a></li>
+			</ul>
+			<ul id="dropdown3" class="dropdown-content">
+			   <li><a href="#!">Samorząd uczniowski</a></li>
+               <li><a href="#!">Podręczniki</a></li>
+               <li><a href="#!">Matura</a></li>
+               <li><a href="#!">Stypendia</a></li>
+               <li><a href="#!">Galerie</a></li>
+               <li><a href="#!">//cos tam po rusku</a></li>
+               <li><a href="#!">Biblioteka</a></li>
+			</ul>
+			<ul id="dropdown4" class="dropdown-content">
+			  <li><a href="#!">Konsultacje</a></li>
+               <li><a href="#!">Rada Rodziców</a></li>
+               <li><a href="#!">Regulamin</a></li>
+			</ul>
+			<nav>
+			  <div class="row" id="navdol">
+            <div class="col l1"></div>
+            <<div class="col l10">
+        			<div id="ulcont">
+              	<ul class="right hide-on-med-and-down" style="float:initial !important;">
+        				  <!-- Dropdown Trigger -->
+        				  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">O nas</a></li>
+        				  <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Dla gimnazjalisty</a></li>
+        				  <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Dla ucznia</a></li>
+        				  <li><a class="dropdown-button" href="#!" data-activates="dropdown4">Dla rodzica</a></li>
+        				</ul>
+              </div>
+            </div>
+            <div class="col l1"></div>
+			</div>
+			</nav>
+	
+>>>>>>> Próba-II
 
 
           <!-- SKRYPTY -->
@@ -146,6 +208,11 @@
           closeOnClick: true
           draggable: true
         })
+	   </script>
+	   <script>
+	   $(function(){
+       $(".dropdown-button").dropdown();
+        )}
       </script>
       
 
