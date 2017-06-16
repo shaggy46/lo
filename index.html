@@ -17,12 +17,15 @@
 		<nav>
 		    <div class="row" id="row">
           <div class="col m3 s0"></div>
-          <div class="col m1 s6"><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+          <div class="col m1 s6">
+            <div class="hide-on-med-and-up">
+              <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
           </div>
-          <div class="col m2 s6"><a href="#">Plan lekcji</a></div>
-          <div class="col m2 s6"><a href="#">Dziennik</a></div>
-          <div class="col m2 s6"><a href="#">Kontakt</a></div>
-		      <div class="col m2 s6">
+          <div class="col m2 s6" id="up"><a href="#">Plan lekcji</a></div>
+          <div class="col m2 s6" id="up"><a href="#">Dziennik</a></div>
+          <div class="col m2 s6" id="up"><a href="#">Kontakt</a></div>
+		      <div class="col m2 s6" id="up">
             <form>
               <input type="text" name="Szukaj" placeholder="Szukaj">
             </form>
@@ -35,89 +38,103 @@
   	</div>
 	
   	  <!-- TU ZACZYNAJĄ SIE SCHODY -->
-
-<ul id="slide-out" class="side-nav">
-      <li class="no-padding">
-        <ul class="collapsible collapsible-accordion">
-          <!-- O NAS -->
-          <li>
-            <a class="collapsible-header">O nas</a>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="#!">O szkole</a></li>
-                <li><a href="#!">Kadra/pracownicy</a></li>
-                <li><a href="#!">Klasy/profile</a></li>
-                <li><a href="#!">Dokumenty</a></li>
-              </ul>
-            </div>
-          </li>
-          <!-- DLA GIMNAZJALISTY -->
-          <li>
-            <a class="collapsible-header">Dla gimnazjalisty</a>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="#!">Dlaczego my?</a></li>
-                <li><a href="#!">Rekrutacja</a></li>
-
-              </ul>
-            </div>
-          </li>
-          <!-- DLA UCZNIA -->
-          <li>
-            <a class="collapsible-header">Dla ucznia</a>
-            <div class="collapsible-body" >
-              <ul>
-                <li><a href="#!">Samorząd uczniowski</a></li>
-                <li><a href="#!">Podręczniki</a></li>
-                <li><a href="#!">Matura</a></li>
-                <li><a href="#!">Stypendia</a></li>
-                <li><a href="#!">Galerie</a></li>
-                <li><a href="#!">//cos tam po rusku</a></li>
-                <li><a href="#!">Biblioteka</a></li>
-              </ul>
-            </div>
-          </li>
-          <!-- DLA RODZICA -->
-          <li>
-            <a class="collapsible-header">Dla rodzica</a>
-            <div class="collapsible-body">
-              <ul>
-                <li id="to"><a href="#!"">Współpraca z rodzicami</a></li>
-                <li><a href="#!">Konsultacje</a></li>
-                <li><a href="#!">Rada Rodziców</a></li>
-                <li><a href="#!">Regulamin</a></li>
-              </ul>
-            </div>
+    <ul id="slide-out" class="side-nav">
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <!-- O NAS -->
+              <li>
+                <a class="collapsible-header">O nas</a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="#!">O szkole</a></li>
+                    <li><a href="#!">Kadra/pracownicy</a></li>
+                    <li><a href="#!">Klasy/profile</a></li>
+                    <li><a href="#!">Dokumenty</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- DLA GIMNAZJALISTY -->
+              <li>
+                <a class="collapsible-header">Dla gimnazjalisty</a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="#!">Dlaczego my?</a></li>
+                    <li><a href="#!">Rekrutacja</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- DLA UCZNIA -->
+              <li>
+                <a class="collapsible-header">Dla ucznia</a>
+                <div class="collapsible-body" >
+                  <ul>
+                    <li><a href="#!">Samorząd uczniowski</a></li>
+                    <li><a href="#!">Podręczniki</a></li>
+                    <li><a href="#!">Matura</a></li>
+                    <li><a href="#!">Stypendia</a></li>
+                    <li><a href="#!">Galerie</a></li>
+                    <li><a href="#!">//cos tam po rusku</a></li>
+                    <li><a href="#!">Biblioteka</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- DLA RODZICA -->
+              <li>
+                <a class="collapsible-header">Dla rodzica</a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li id="to"><a href="#!">Współpraca z rodzicami</a></li>
+                    <li><a href="#!">Konsultacje</a></li>
+                    <li><a href="#!">Rada Rodziców</a></li>
+                    <li><a href="#!">Regulamin</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
           </li>
         </ul>
-      </li>
-    </ul>
+  
 
      <!-- KONIEC NAVBARA -->
 
-     <!-- PIERWSZT NEWS -->
- 
-	     <div class="row" id="news">
-					<div class="col s12 m12">
-					<h2 class="header">Horizontal Card</h2>
-					<div class="card horizontal">
-					  <div class="card-image col s2 m4">
-						<img src="smth.jpg">
-					  </div>
-					  <div class="card-stacked">
-						<div class="card-content">
-						  <p>Zeszły tydzień obfitował w kolejne ciekawe wydarzenia. Klasy drugie wzięły udział w warsztatach z biologii i chemii w Lublinie. 
-
-              Pracownicy Uniwersytetu Przyrodniczego w Lublinie po raz kolejny byli uprzejmi i zaprosili uczniów naszej szkoły do wspólnej nauki. Uczniowie klas biologicznych - 2d, 2f oraz 2e pod opieką nauczycieli - pani Lucyny Lenart, pani Pauliny Michalik oraz pana Bartłomieja Petryniaka pracowali wspólnie z nauczycielami akademickimi na Wydziale Nauk o Żywności i Biotechnologii oraz na Wydziale Ogrodnictwa i Architektury Krajobrazu. Uczniowie zapoznali się ze sposobem rozpoznawania smaków i zapachów oraz samodzielnie wykonali preparaty mikroskopowe z owoców egzotycznych np z owocu granatu. Pracownicy Katedry Chemii wprowadzili uczniów w kolorowy świat związków manganu i chromu. Wszystkie grupy uczniów zostały pochwalone za sumienność i pracowitość. Uczniowie byli niezwykle zadowoleni ze zdobytych doświadczeń, w myśl zasady "więcej zapamiętasz, kiedy zrobisz sam". Cieszymy się z tych małych sukcesów naszych uczniów, mamy nadzieję na stałą współpracę z uniwersytetem. Zapraszamy do obejrzenia fotorelacji.</p></p>
-						</div>
-						<div class="card-action">
-						  <div class="collapsible-header">CZYTAJ DALEJ</div>
-                           <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-						</div>
-					  </div>
-					</div>
-				  </div>
-	       </div>
+     <div class="row  hide-on-small-only" id="navrow">
+           <div class="col m2 s0 amber" id="navdol"></div>
+           <div class="col m2 s3 amber" id="navdol"><a href="#"> O nas</a>
+                  <ul>
+                    <li><a href="#!">O szkole</a></li>
+                    <li><a href="#!">Kadra/pracownicy</a></li>
+                    <li><a href="#!">Klasy/profile</a></li>
+                    <li><a href="#!">Dokumenty</a></li>
+                  </ul>            
+           </div>
+           <div class="col m2 s3 amber" id="navdol"><a href="#">Dla gimnazjalisty</a>
+                  <ul>
+                    <li><a href="#!">Dlaczego my?</a></li>
+                    <li><a href="#!">Rekrutacja</a></li>
+                  </ul>
+           </div>
+           <div class="col m2 s3 amber" id="navdol"><a href="#">Dla ucznia</a> 
+                  <ul>
+                    <li><a href="#!">Samorząd uczniowski</a></li>
+                    <li><a href="#!">Podręczniki</a></li>
+                    <li><a href="#!">Matura</a></li>
+                    <li><a href="#!">Stypendia</a></li>
+                    <li><a href="#!">Galerie</a></li>
+                    <li><a href="#!">//cos tam po rusku</a></li>
+                    <li><a href="#!">Biblioteka</a></li>
+                  </ul>
+           </div>
+           <div class="col m2 s3 amber" id="navdol"><a href="#">Dla rodzica</a> 
+                  <ul>
+                    <li id="to"><a href="#!"">Współpraca z rodzicami</a></li>
+                    <li><a href="#!">Konsultacje</a></li>
+                    <li><a href="#!">Rada Rodziców</a></li>
+                    <li><a href="#!">Regulamin</a></li>
+                  </ul>
+           </div>
+           <div class="col m2 s0 amber" id="navdol"></div>
+       </div>
+         <!--KONIEC DOLNEGO NAVBARA -->
 
           <!-- SKRYPTY -->
       <script type="text/javascript" src="jquery-3.2.1.min.js" ></script>
