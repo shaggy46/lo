@@ -147,28 +147,36 @@ nav .button-collapse:hover
 	color:#000000 !important;
 	font-size:20px;
 }
-#news
-{
-    background-color: #E89E5C;
-    margin-top:20px;
-    border-bottom:3px solid #9986FF;
-    border-top:3px solid #9986FF;
-}
-#newsimg img
-{
-width:160px;
-height:160px;
-border-radius: 100px;
-}
-h5 /* Nagłówek w nwesach */ 
-{
-	text-align:center;
-    color:#FFF6E0;
-}
 #navdol
 {
 	background-color: #FFF8E1 !important;
 }
+#news
+{
+    background-color: #81D4FA;
+    margin:0px;
+}
+#newsimg img
+{
+	margin-left: 20px;
+	margin-top: 20px;
+	width:184px;
+	height:184px;
+	border-radius: 2px;
+}
+h5 /* Nagłówek w nwesach */ 
+{
+	text-align:left;
+}
+#czytajdalej
+{
+	text-align: right;
+}
+#czytajdalej a
+{
+	color: black;
+}
+
 
 @media only screen and (max-width: 900px)
  {
