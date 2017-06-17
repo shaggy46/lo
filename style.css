@@ -164,9 +164,10 @@ nav .button-collapse:hover
 	height:184px;
 	border-radius: 2px;
 }
-h5 /* Nagłówek w nwesach */ 
+.header /* Nagłówek w newsach */ 
 {
 	text-align:left;
+	margin-top: 0px;
 }
 #czytajdalej
 {
@@ -176,8 +177,20 @@ h5 /* Nagłówek w nwesach */
 {
 	color: black;
 }
+.page-footer
+{
+	background-color: #29405A !important;
+}
+.page-footer .footer-copyright .container
+{
+	text-align: center;
+}
 
-
+#footer-prawo
+{
+	color: #FFFFFF;
+	text-align: center;
+}
 @media only screen and (max-width: 900px)
  {
     .nav-wrapper {
