@@ -150,6 +150,11 @@ nav .button-collapse:hover
 #navdol
 {
 	background-color: #FFF8E1 !important;
+	margin-bottom:100px;
+}
+.margin
+{	height: 15px;
+    background-color: #81D4FA;
 }
 #news
 {
@@ -167,7 +172,11 @@ nav .button-collapse:hover
 .header /* Nagłówek w newsach */ 
 {
 	text-align:left;
+<<<<<<< HEAD
 	margin-top: 0px;
+=======
+	margin-top: 0px !important;
+>>>>>>> b9549c0d6fc76bfd2802741bbde9a134f70f35f9
 }
 #czytajdalej
 {
