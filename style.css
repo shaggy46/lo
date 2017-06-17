@@ -66,7 +66,7 @@ input[type=text]
 }
 .side-nav
 {
-	background-color: #FFFEEE !important;
+	background-color: #FFE980 !important;
 }
 #slide-out 
 {
@@ -151,6 +151,33 @@ nav .button-collapse:hover
 {
 	background-color: #FFF8E1 !important;
 }
+#news
+{
+    background-color: #81D4FA;
+    margin:0px;
+}
+#newsimg img
+{
+	margin-left: 20px;
+	margin-top: 20px;
+	width:184px;
+	height:184px;
+	border-radius: 2px;
+}
+h5 /* Nagłówek w nwesach */ 
+{
+	text-align:left;
+}
+#czytajdalej
+{
+	text-align: right;
+}
+#czytajdalej a
+{
+	color: black;
+}
+
+
 @media only screen and (max-width: 900px)
  {
     .nav-wrapper {
