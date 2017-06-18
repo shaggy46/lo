@@ -68,12 +68,30 @@ input[type=text]
 }
 #logo
 {
-	height: 305px;
+	background-image: url(top.png);
+	height: 300px;
 	width: 80%;
 	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
 	border:5px solid #000000;
+}
+.numerek
+{
+	margin-top: 75px;
+}
+.numerek, .numerek2
+{
+	width: 70px;
+	height: 70px;
+	border: 5px solid black;
+	font-size: 35px;
+	text-align: center;
+	border-radius: 25px;
+}
+.numerek2
+{
+	margin-top: 10px;
 }
 .side-nav
 {
