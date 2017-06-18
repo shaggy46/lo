@@ -66,7 +66,7 @@ input[type=text]
 }
 .side-nav
 {
-	background-color: #FFFEEE !important;
+	background-color: #FFE980 !important;
 }
 #slide-out 
 {
@@ -150,29 +150,33 @@ nav .button-collapse:hover
 #navdol
 {
 	background-color: #FFF8E1 !important;
+	margin-bottom:100px;
 }
-#newsy
-{
-	background-color: #81d4fa;
-	min-height: 60px;
+.margin
+{	height: 15px;
+    background-color: #81D4FA;
 }
-#newsy h5
+#news
 {
-	text-align: center;	
+    background-color: #81D4FA;
+    margin:0px;
 }
-#zdjnews
+#newsimg img
 {
-	width: 200px !important;
+	margin-left: 20px;
+	margin-top: 20px;
+	width:184px;
+	height:184px;
+	border-radius: 2px;
 }
-#zdjnews img
+.header /* Nagłówek w newsach */ 
 {
-	width: 200px;
-	height: 200px;
-	border-radius: 50px !important;
-}
-#opis
-{
-	background-color: #EEEEEE;
+	text-align:left;
+<<<<<<< HEAD
+	margin-top: 0px;
+=======
+	margin-top: 0px !important;
+>>>>>>> b9549c0d6fc76bfd2802741bbde9a134f70f35f9
 }
 #czytajdalej
 {
@@ -184,19 +188,18 @@ nav .button-collapse:hover
 }
 .page-footer
 {
-  background-color: #29405A !important;
+	background-color: #29405A !important;
 }
 .page-footer .footer-copyright .container
 {
-  text-align: center;
+	text-align: center;
 }
 
 #footer-prawo
 {
-  color: #FFFFFF;
-  text-align: center;
+	color: #FFFFFF;
+	text-align: center;
 }
-
 @media only screen and (max-width: 900px)
  {
     .nav-wrapper {
