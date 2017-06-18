@@ -173,11 +173,9 @@ nav .button-collapse:hover
 .header /* Nagłówek w newsach */ 
 {
 	text-align:left;
-<<<<<<< HEAD
 	margin-top: 0px;
-=======
 	margin-top: 0px !important;
->>>>>>> b9549c0d6fc76bfd2802741bbde9a134f70f35f9
+
 }
 #czytajdalej
 {
@@ -186,6 +184,33 @@ nav .button-collapse:hover
 #czytajdalej a
 {
 	color: black;
+}
+#onasrow
+{
+	background-color: #81D4FA;
+	margin-bottom: 0px !important;
+	border-bottom: 5px solid #FFFFFF;
+	border-top: 5px solid #FFFFFF;
+}
+#onas
+{
+	background-color: #5C648E;
+	color: #FFFFFF;
+
+}
+#onastxt
+{
+	font-size: 16px;
+	text-align: justify;
+-webkit-box-shadow: 23px 25px 207px -45px rgba(41,64,90,1);
+-moz-box-shadow: 23px 25px 207px -45px rgba(41,64,90,1);
+box-shadow: 23px 25px 207px -45px rgba(41,64,90,1);
+}
+#opisimg
+{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 5px;
 }
 .page-footer
 {
