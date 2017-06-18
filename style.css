@@ -150,6 +150,11 @@ nav .button-collapse:hover
 #navdol
 {
 	background-color: #FFF8E1 !important;
+	margin-bottom:100px;
+}
+.margin
+{	height: 15px;
+    background-color: #81D4FA;
 }
 #news
 {
@@ -164,9 +169,14 @@ nav .button-collapse:hover
 	height:184px;
 	border-radius: 2px;
 }
-h5 /* Nagłówek w nwesach */ 
+.header /* Nagłówek w newsach */ 
 {
 	text-align:left;
+<<<<<<< HEAD
+	margin-top: 0px;
+=======
+	margin-top: 0px !important;
+>>>>>>> b9549c0d6fc76bfd2802741bbde9a134f70f35f9
 }
 #czytajdalej
 {
@@ -176,8 +186,20 @@ h5 /* Nagłówek w nwesach */
 {
 	color: black;
 }
+.page-footer
+{
+	background-color: #29405A !important;
+}
+.page-footer .footer-copyright .container
+{
+	text-align: center;
+}
 
-
+#footer-prawo
+{
+	color: #FFFFFF;
+	text-align: center;
+}
 @media only screen and (max-width: 900px)
  {
     .nav-wrapper {
