@@ -232,6 +232,11 @@ box-shadow: 23px 25px 207px -45px rgba(41,64,90,1);
 {
 	color: #FFFFFF;
 	text-align: center;
+	margin-top: 20px;
+}
+.kontakt-footer
+{
+	line-height: 25px;
 }
 @media only screen and (max-width: 900px)
  {
