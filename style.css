@@ -64,6 +64,7 @@ input[type=text]
 	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
+	border:solid 5px #OOOOOO;
 }
 .side-nav
 {
@@ -173,11 +174,10 @@ nav .button-collapse:hover
 .header /* Nagłówek w newsach */ 
 {
 	text-align:left;
-<<<<<<< HEAD
 	margin-top: 0px;
-=======
+
 	margin-top: 0px !important;
->>>>>>> b9549c0d6fc76bfd2802741bbde9a134f70f35f9
+
 }
 #czytajdalej
 {
@@ -194,6 +194,16 @@ nav .button-collapse:hover
 .page-footer .footer-copyright .container
 {
 	text-align: center;
+}
+#slider
+{
+	background-color: rgba(51,51,51,0.08) !important;
+}
+#slider img
+{
+    width:180px;
+    height:120px;
+
 }
 
 #footer-prawo
