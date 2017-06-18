@@ -5,43 +5,58 @@ body
 }
 nav
 {
-	background-color: #fff !important;
+	background-color: #FFFFFF !important;
 	box-shadow: none !important;
 }
-#row
+nav .button-collapse
 {
-	width: 95%;
-	background-color: #FFFFFF !important;
-	font-size: 30px;
-}
-.row .col.m3
-{
-	width: 0;
-	padding: 0;
-}
-.row .col.m1
-{
-	min-height: 64px;
+    height: 56px;
+	width: 56px;
+	background-color:#3366CC;
 }
 nav a.button-collapse
 {
 	display:inline !important;
 	margin-top: 15px;
 }
-.row #up
+nav .button-collapse:hover
+{
+	background-color:#FFF8E1;
+}
+#topnav
+{
+	width: 95%;
+	background-color: #FFFFFF !important;
+	font-size: 30px;
+}
+#topnav .col.m1
+{
+	min-height: 64px;
+}
+#topnav .col.m3
+{
+	padding: 0;
+}
+#topnav .col.s1
+{
+	text-align: center;
+	min-height: 72px;
+
+}
+#topnav .col a
+{
+	color: black;
+}
+#up
 {
 	text-align: center;
 	border-left: 1px dotted #000000;
 }
-.row .col a
-{
-	color: black;
-}
-.row #up:hover
+#topnav #up:hover
 {
 	background-color: #FFE5BE;
 }
-.row #up:hover:last-child
+#topnav #up:hover:last-child
 {
 	background-color: white !important;
 }
@@ -51,12 +66,6 @@ input[type=text]
 	text-align: center;
 	color: #000000 !important;
 }
-.row .col.s1
-{
-	text-align: center;
-	min-height: 72px;
-
-}
 #logo
 {
 	height: 305px;
@@ -64,19 +73,11 @@ input[type=text]
 	margin-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
-	border:solid 5px #OOOOOO;
+	border:5px solid #000000;
 }
 .side-nav
 {
 	background-color: #FFE980 !important;
-}
-#slide-out 
-{
-	width: 350px; 
-}
-#slide-out  li i
-{
-	font-size: 34px !important;
 }
 .side-nav > li a
 {
@@ -86,6 +87,18 @@ input[type=text]
 .side-nav > li a:hover
 {
 	background-color: #FFE5BE !important;
+}
+.side-nav > li #to:hover
+{
+	background-color: #FFE5BE !important;
+}
+#slide-out 
+{
+	width: 350px; 
+}
+#slide-out  li i
+{
+	font-size: 34px !important;
 }
 .material-icons
 {
@@ -99,10 +112,6 @@ ul > li i
 {
 	height: 90px !important;
 }
-.side-nav > li #to:hover
-{
-	background-color: #FFE5BE !important;
-}
 .nav-wrapper
 {
 	background-color:#FFF8E1;
@@ -111,17 +120,6 @@ ul > li i
 .nav-wrapper > #ulcont > ul > li:first-child
 {
 	border-left:1px dotted #000000;
-}
-
-nav .button-collapse
-{
-    height: 56px;
-	width: 56px;
-	background-color:#3366CC;
-}
-nav .button-collapse:hover
-{
-	background-color:#FFF8E1;
 }
 #ulcont
 {
@@ -175,9 +173,7 @@ nav .button-collapse:hover
 {
 	text-align:left;
 	margin-top: 0px;
-
 	margin-top: 0px !important;
-
 }
 #czytajdalej
 {
@@ -203,9 +199,7 @@ nav .button-collapse:hover
 {
     width:180px;
     height:120px;
-
 }
-
 #footer-prawo
 {
 	color: #FFFFFF;
