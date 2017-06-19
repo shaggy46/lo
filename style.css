@@ -47,6 +47,14 @@ nav .button-collapse:hover
 {
 	color: black;
 }
+.sticky
+{
+	width:100%;
+	position:fixed;
+	left: 0;
+	top: 0;
+	z-index:100;
+}
 #up
 {
 	text-align: center;
@@ -201,6 +209,7 @@ ul > li i
 #czytajdalej
 {
 	text-align: right;
+	background-color: #FFFFFF;
 }
 #czytajdalej a
 {
