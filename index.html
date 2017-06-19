@@ -289,28 +289,26 @@
       <script type="text/javascript" src="jquery-3.2.1.min.js" ></script>
       <script type="text/javascript" src="materialize.min.js"></script>
       <script>
-
-			$(document).ready(function() {
-			var NavY = $('.topnav').offset().top;
-			 
-			var stickyNav = function(){
-			var ScrollY = $(window).scrollTop();
-				  
-			if (ScrollY > NavY) { 
-				$('.topnav').addClass('sticky');
-			} else {
-				$('.topnav').removeClass('sticky'); 
-			}
-			};
-			 
-			stickyNav();
-			 
-			$(window).scroll(function() {
-				stickyNav();
-			});
-			});
-
-      </script>
+        $(document).ready(function() {
+          var NavY = $('#topnav').offset().top;
+           
+          var stickyNav = function(){
+          var ScrollY = $(window).scrollTop();
+              
+          if (ScrollY > NavY) { 
+            $('#topnav').addClass('sticky');
+          } else {
+            $('#topnav').removeClass('sticky'); 
+          }
+          };
+           
+          stickyNav();
+           
+          $(window).scroll(function() {
+            stickyNav();
+          });
+          });
+</script>
       <script>
         $(function(){
           $(".button-collapse").sideNav();
