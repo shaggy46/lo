@@ -227,12 +227,12 @@
         <!-- KONIEC NEWSOW-->
         <!-- O NAS -->
         <div class="row" id="onasrow">
-          <div class="col m1 s0"></div>
-          <div class="col m10 s12" id="onas">
+          <div class="col l1 m0 s0"></div>
+          <div class="col l10 m12 s12" id="onas">
             <!--CONTENT O NAS -->
             <h4 class="left-align">O nas</h4>
             <div class="row">
-              <div class="col m7 s12" id="onastxt">
+              <div class="col l7 m12 s12" id="onastxt">
                 <p> Liceum zatrudnia wykwalifikowaną kadrę pedagogiczną. Część kierowniczą i pedagogiczną tworzą:<br>
                 • dyrektor szkoły,<br>
                 • wicedyrektor szkoły,<br>
@@ -243,15 +243,15 @@
                 <p> Sala gimnastyczna, biblioteka oraz nowoczesne wyposażenie klasopracowni zapewniają wszechstronny rozwój umysłowy i fizyczny. Nowoczesne środki dydaktyczne (tablice multimedialne, projektory, laptopy) umożliwiają przyswojenie wiedzy w przyjemny sposób. </p>
                   
               </div>
-              <div class="col m5">
+              <div class="col l5 m12 s12">
                 <figure>
-                  <img src="logo.jpg" alt="zdjecie szkoły" width="100%" height="320">
+                  <img class="responsive-img"src="logo.jpg" alt="zdjecie szkoły" width="100%" height="320">
                   <figcaption id="opisimg">Szkic budynku szkoły</figcaption>
                 </figure>
               </div>
             </div>
           </div>
-          <div class="col m1 s0"></div>
+          <div class="col l1 m0 s0"></div>
         </div>
       <div class="row" style="min-height: 30px;background-color: #81D4FA; margin: 0px !important;">
         <div class="col m12 s12" ></div>
@@ -285,8 +285,30 @@
 
 
           <!-- SKRYPTY -->
+
       <script type="text/javascript" src="jquery-3.2.1.min.js" ></script>
       <script type="text/javascript" src="materialize.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          var NavY = $('#topnav').offset().top;
+           
+          var stickyNav = function(){
+          var ScrollY = $(window).scrollTop();
+              
+          if (ScrollY > NavY) { 
+            $('#topnav').addClass('sticky');
+          } else {
+            $('#topnav').removeClass('sticky'); 
+          }
+          };
+           
+          stickyNav();
+           
+          $(window).scroll(function() {
+            stickyNav();
+          });
+          });
+</script>
       <script>
         $(function(){
           $(".button-collapse").sideNav();
@@ -342,5 +364,6 @@
 			}
 			
 		</script>
+
 	</body>
 </html>
