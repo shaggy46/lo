@@ -102,24 +102,31 @@ input[type=text] focus
 }
 .side-nav
 {
-	background-color: #FFE980 !important;
+	background-color: #004e87 !important;
+	color: white;
+	width: 350px !important;
 }
 .side-nav > li a
 {
 	font-size: 28px !important;
 	letter-spacing: 1px;
+	color: white !important;
 }
 .side-nav > li a:hover
 {
-	background-color: #FFE5BE !important;
+	background-color: #2c6289 !important;
 }
 .side-nav > li #to:hover
 {
-	background-color: #FFE5BE !important;
+	background-color: #2c6289 !important;
 }
 #slide-out  li i
 {
 	font-size: 34px !important;
+}
+#sidenavli
+{
+	background-color: #095f9e !important;
 }
 .material-icons
 {
