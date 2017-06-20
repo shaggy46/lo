@@ -2,6 +2,7 @@ body
 {
 	margin: 0;
 	padding: 0;
+	font-family: 'Lato', sans-serif;
 }
 nav
 {
@@ -267,6 +268,14 @@ ul > li i
 -webkit-box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+}
+#onasheader
+{
+	background-color: #ffab40;
+	-webkit-box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+z-index:100;
 }
 #opisimg
 {
