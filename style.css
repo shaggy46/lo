@@ -7,6 +7,7 @@ nav
 {
 	background-color: #FFFFFF !important;
 	box-shadow: none !important;
+	line-height:66px !important;
 }
 nav .button-collapse
 {
@@ -17,7 +18,7 @@ nav .button-collapse
 nav a.button-collapse
 {
 	display:inline !important;
-	margin-top: 15px;
+	margin-top: 2px;
 }
 nav .button-collapse:hover
 {
@@ -25,46 +26,49 @@ nav .button-collapse:hover
 }
 #topnav
 {
-	width: 95%;
+	width: 100%;
 	background-color: #FFFFFF !important;
-	font-size: 30px;
+	font-size: 25px;
+	border-bottom:solid 2px #3366CC;
+    opacity: 0.9;
 }
-#topnav .col.m1
+#topnav a
 {
-	min-height: 64px;
+	color:#000000 !important;
 }
-#topnav .col.m3
-{
-	padding: 0;
-}
-#topnav .col.s1
-{
-	text-align: center;
-	min-height: 72px;
 
-}
-#topnav .col a
-{
-	color: black;
-}
 .sticky
 {
 	width:100%;
 	position:fixed;
-	left: 0;
 	top: 0;
 	z-index:100;
+}
+#logo
+{
+	margin-top: 28px;
+}
+#logoimg img
+{
+	border:2px solid #81D4FA;
+}
+#numerek
+{
+	color:black;
+	text-align: center;
+	padding: 0px !important;
 }
 #up
 {
 	text-align: center;
 	border-left: 1px dotted #000000;
+	padding: 0px !important;
 }
-#search
+.search form
 {
-	margin:0px;
-	border-left: 1px dotted #000000;
+	margin-right:5px;
 }
+
 #topnav #up:hover
 {
 	background-color: #FFE5BE;
@@ -78,33 +82,7 @@ input[type=text]
 	font-size: 25px !important;
 	text-align: center;
 	color: #000000 !important;
-}
-#logo
-{
-	background-image: url(top.png);
-	height: 300px;
-	width: 80%;
-	margin-top: 30px;
-	margin-right: auto;
-	margin-left: auto;
-	border:5px solid #000000;
-}
-.numerek
-{
-	margin-top: 75px;
-}
-.numerek, .numerek2
-{
-	width: 70px;
-	height: 70px;
-	border: 5px solid black;
-	font-size: 35px;
-	text-align: center;
-	border-radius: 25px;
-}
-.numerek2
-{
-	margin-top: 10px;
+	margin:0 !important;
 }
 .side-nav
 {
@@ -122,10 +100,6 @@ input[type=text]
 .side-nav > li #to:hover
 {
 	background-color: #FFE5BE !important;
-}
-#slide-out 
-{
-	width: 350px; 
 }
 #slide-out  li i
 {
@@ -270,8 +244,3 @@ box-shadow: 23px 25px 207px -45px rgba(41,64,90,1);
 {
 	line-height: 25px;
 }
-@media only screen and (max-width: 900px)
- {
-    .nav-wrapper {
-        display:none;
- }
