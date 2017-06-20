@@ -158,8 +158,9 @@ ul > li i
 }
 #navdol
 {
-	background-color: #FFF8E1 !important;
+	background-color: #303845 !important;
 	margin-bottom:100px;
+	line-height: 64px !important;
 }
 .margin
 {	height: 15px;
