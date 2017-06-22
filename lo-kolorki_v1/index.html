@@ -1,0 +1,382 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>LO Lubaczów </title>
+        <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript">
+      function hide()
+      {
+        $('.button-collapse').sideNav('hide');
+      }
+    </script>
+
+
+	</head>
+	<body onload="zmienslajd()">
+	    <!--TOP NAV-->
+		<nav>
+		    <div class="row" id="topnav">
+	          <div class="col hide-on-large-only m4 s6">
+	            <div class="hide-on-large-only">
+	              <a href="#" data-activates="slide-out" class="button-collapse btn btn-floating pulse"><i class="material-icons">menu</i></a>
+	            </div>
+	          </div>
+           <div class="col l4 m8 s12" id="number">
+              <div class="row" id="luckynumber">
+                 <div class="col l1 m1 s1"></div>    
+                 <div class="col l8 m8 s8">Szczęśliwe numereki:</div>  
+                 <div class="col l1 m1 s1 numbertable center-align"><span id="nrtable"> 14 </span></div>
+                 <div class="col l1 m1 s1 numbertable center-align"><span id="nrtable2">20</span></div>
+                 <div class="col l1 m1 s1"></div>
+              </div>
+            </div>
+	          <div class="col l2 m6 s12" id="up"><a href="#">Plan lekcji</a></div>
+	          <div class="col l2 m6 s12" id="up"><a href="#">Dziennik</a></div>
+	          <div class="col l2 m6 s12" id="up"><a href="#">Kontakt</a></div>
+			  <div class="col l2 m6 s12 search" id="up">
+	          <form>
+	              <input type="text" name="Szukaj" placeholder="Szukaj">
+	          </form>
+	          </div>
+		    </div>
+  		</nav>
+	  	<div class="row" id="logo">
+	  		<div class="col l1 m0 s0"></div>
+	  		<div class="col l10 m12 s12" id="logoimg"><img class="responsive-img" src="top.png" alt="zdjecie szkoły" width="100%" height="320"></div>
+	  		<div class="col l1 m0 s0"></div>  
+	  	</div>
+	
+  	  <!-- SIDE NAV-->
+    <ul id="slide-out" class="side-nav">
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <!-- O NAS -->
+              
+              <div id="button-collapse">
+              <p onclick="hide();">Kliknij tu!</p>
+              <li class="right-align"><span class="fa fa-times fa-3x" aria-hidden="true" style="padding: 5%;"></span></li>
+              </div>
+              <li>
+                <a class="collapsible-header">O nas</a>
+                  <div class="collapsible-body">
+                    <ul  id="sidenavli">
+                      <li><a href="#!">O szkole</a></li>
+                      <li><a href="#!">Kadra/pracownicy</a></li>
+                      <li><a href="#!">Klasy/profile</a></li>
+                      <li><a href="#!">Dokumenty</a></li>
+                    </ul>
+                  </div>
+              </li>
+              <!-- DLA GIMNAZJALISTY -->
+              <li>
+                <a class="collapsible-header">Dla gimnazjalisty</a>
+                <div class="collapsible-body">
+                  <ul id="sidenavli">
+                    <li><a href="#!">Dlaczego my?</a></li>
+                    <li><a href="#!">Rekrutacja</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- DLA UCZNIA -->
+              <li>
+                <a class="collapsible-header">Dla ucznia</a>
+                <div class="collapsible-body">
+                  <ul id="sidenavli">
+                    <li><a href="#!">Samorząd uczniowski</a></li>
+                    <li><a href="#!">Podręczniki</a></li>
+                    <li><a href="#!">Matura</a></li>
+                    <li><a href="#!">Stypendia</a></li>
+                    <li><a href="#!">Galerie</a></li>
+                    <li><a href="#!">//cos tam po rusku</a></li>
+                    <li><a href="#!">Biblioteka</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- DLA RODZICA -->
+              <li>
+                <a class="collapsible-header">Dla rodzica</a>
+                <div class="collapsible-body">
+                  <ul id="sidenavli">
+                     <li id="to"><a href="#!">Współpraca z rodzicami</a></li>
+                     <li><a href="#!">Konsultacje</a></li>
+                     <li><a href="#!">Rada Rodziców</a></li>
+                     <li><a href="#!">Regulamin</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+     <!-- KONIEC NAVBARA GÓRNEGO/POCZĄTEK DOLNEGO -->
+		 
+		  <ul id="dropdown1" class="dropdown-content">
+			              <li><a href="#!">O szkole</a></li>
+                    <li><a href="#!">Kadra/pracownicy</a></li>
+                    <li><a href="#!">Klasy/profile</a></li>
+                    <li><a href="#!">Dokumenty</a></li>
+			</ul>
+			<ul id="dropdown2" class="dropdown-content">
+      			        <li><a href="#!">Dlaczego my?</a></li>
+                    <li><a href="#!">Rekrutacja</a></li>
+			</ul>
+			<ul id="dropdown3" class="dropdown-content">
+    			          <li><a href="#!">Samorząd uczniowski</a></li>
+                    <li><a href="#!">Podręczniki</a></li>
+                    <li><a href="#!">Matura</a></li>
+                    <li><a href="#!">Stypendia</a></li>
+                    <li><a href="#!">Galerie</a></li>
+                    <li><a href="#!">//cos tam po rusku</a></li>
+                    <li><a href="#!">Biblioteka</a></li>
+			</ul>
+			<ul id="dropdown4" class="dropdown-content">
+    			          <li><a href="#!">Konsultacje</a></li>
+                    <li><a href="#!">Rada Rodziców</a></li>
+                    <li><a href="#!">Regulamin</a></li>
+			</ul>
+			<nav class="hide-on-med-and-down">
+			  <div class="row" id="navdol">
+            <div class="col m12" style="border:2px solid #3366CC !important;">
+        			<div id="ulcont">
+              	<ul class="right hide-on-med-and-down" style="float:initial !important;">
+        				  <!-- Dropdown Trigger -->
+          				  <li><a id="butt" class="dropdown-button" href="#!" data-activates="dropdown1" >O nas</a></li>
+          				  <li><a id="butt"  class="dropdown-button" href="#!" data-activates="dropdown2">Dla gimnazjalisty</a></li>
+          				  <li><a id="butt"  class="dropdown-button" href="#!" data-activates="dropdown3">Dla ucznia</a></li>
+          				  <li><a id="butt"  class="dropdown-button" href="#!" data-activates="dropdown4">Dla rodzica</a></li>
+        				</ul>
+              </div>
+            </div>
+			 </div>
+			</nav>
+	<!--MARGINES -->
+      <div class="row" style="min-height: 15px;background-color: #404a5b; margin: 0px !important;">
+        <div class="col m12 s12" style="background-color: #404a5b" ></div>
+      </div>
+          <!--ARTICLE SECTION -->
+      <div class="col m12 s12 margin"></div>
+      <div id="news" class="row">    
+          <div class="col m1 s0"></div>
+          <div class="col m5 s12">
+            <div class="card horizontal small hoverable">
+              <div class="card-image" id="newsimg">
+                <img src="http://lo-lubaczow.pl/data/news/icons/d41271b669fa55d86884054729bbc57d.jpeg">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h5 class="header">Uwaga Gimnazjaliści - przyszli uczniowie naszej szkoły</h5>
+                  <p>Po zapoznaniu się z ofertą naszej szkoły zapraszamy Was do wyboru języków obcych ( przy składaniu oryginałów świadectw ukończenia gimnazjum) których chcielibyście się uczyć.</p>
+                </div>
+                <div class="card-action" id="czytajdalej">
+                  <a href="#">Czytaj dalej</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col m5 s12"> 
+            <div class="card horizontal small hoverable">
+              <div class="card-image" id="newsimg">
+                <img src="http://lo-lubaczow.pl/data/news/icons/3a5855143f54c5a95c6b75268c01602e.png">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h5 class="header">Warsztaty na Uniwersytecie Przyrodniczym w Lublinie</h5>
+                  <p>Zeszły tydzień obfitował w kolejne ciekawe wydarzenia. Klasy drugie wzięły udział w warsztatach z biologii i chemii w Lublinie.</p>
+                </div>
+                <div class="card-action" id="czytajdalej">
+                  <a href="#">Czytaj dalej</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col m1 s0"></div>
+        </div>
+        <div id="news1" class="row">
+          <div class="col m1 s0"></div>
+          <div class="col m5 s12">
+            <div class="card horizontal small hoverable">
+              <div class="card-image" id="newsimg">
+                <img src="http://www.lo-lubaczow.pl/data/news/icons/9e1ba863a6b8e6753cca7da148a2e112.jpeg">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h5 class="header">Sukces naszych uczennic na Konkursie Piosenki Francuskiej w Tarnowie</h5>
+                  <p>2 czerwca w IV LO w Tarnowie odbył się Konkurs Piosenki Francuskiej . W tegorocznej XIX  już edycji konkursu uczestniczyło 50 uczniów </p>
+                </div>
+                <div class="card-action" id="czytajdalej">
+                  <a href="#">Czytaj dalej</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col m5 s12">
+            <div class="card horizontal small hoverable">
+              <div class="card-image" id="newsimg">
+                <img src="http://www.lo-lubaczow.pl/data/news/icons/b69836efe396fc08cd39aae9be72b92b.jpeg">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h5 class="header">Wyniki konkursu ortograficznego z języka francuskiego 2017 II edycja</h5>
+                  <p>W dniu 23 maja 2017 roku odbył się w naszej szkole Konkurs Ortograficzny z Języka Francuskiego. W konkursie wzięli udział uczniowie.</p>
+                </div>
+                <div class="card-action" id="czytajdalej">
+                  <a href="#">Czytaj dalej</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col m1 s0"></div> 
+      </div>
+
+        <!-- KONIEC NEWSOW-->
+        <!-- O NAS -->
+        <div class="row" id="onasrow">
+          <div class="col l1 m0 s0"></div>
+          <div class="col l10 m12 s12" id="onas">
+            <!--CONTENT O NAS -->
+            <div id="onasheader"><h4 class="center-align">O nas</h4></div>
+            
+            <div class="row">
+              <div class="col l7 m12 s12" id="onastxt">
+                <p> Liceum zatrudnia wykwalifikowaną kadrę pedagogiczną. Część kierowniczą i pedagogiczną tworzą:<br>
+                • dyrektor szkoły,<br>
+                • wicedyrektor szkoły,<br>
+                • pedagog szkolny,<br>
+                • 52 nauczycieli.<br></p>
+                <p>Od początku swego istnienia szkoła solidnie przygotowuje młodzież z naszego powiatu do egzaminu maturalnego. O wysokich standardach nauczania świadczą jego wyniki, najlepsze w powiecie, przewyższające średnią krajową.</p>
+                <p>Stosunki między nauczycielami, uczniami i rodzicami są niepowtarzalne, bo łączy ich wspólny cel. Rodzice uczniów mają wpływ na to, co się dzieje w szkole. Reprezentowani są w Radzie Rodziców współpracującej z dyrektorem, Radą Pedagogiczną i Samorządem Uczniowskim. Uczestniczą również w finansowaniu szkoły, dobrowolnie wpłacając środki na fundusz Rady Rodziców. Pieniądze wpłacane na rzecz szkoły pozwalają na lepsze wyposażenie jej w pomoce naukowe.</p>
+                <p> Sala gimnastyczna, biblioteka oraz nowoczesne wyposażenie klasopracowni zapewniają wszechstronny rozwój umysłowy i fizyczny. Nowoczesne środki dydaktyczne (tablice multimedialne, projektory, laptopy) umożliwiają przyswojenie wiedzy w przyjemny sposób. </p>
+                  
+              </div>
+              <div class="col l5 m12 s12">
+                <figure>
+                  <img class="responsive-img"src="logo.jpg" alt="zdjecie szkoły" width="100%" height="320">
+                  <figcaption id="opisimg">Szkic budynku szkoły</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col l1 m0 s0"></div>
+        </div>
+      </div>
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12" id="footer-prawo">
+                <h5 class="white-text">Liceum Ogólnokształcące im. Tadeusza Kościuszki</h5>
+                <p>ul.Kościuszki 26</p>
+                <p>37-600 Lubaczów</p>				
+				<div id="slider"></div>
+	            </div>
+	              <div class="col l4 offset-l2 s12" id="footer-prawo">
+	                <h5 class="white-text">Sekretariat</h5>
+	                <div class="kontakt-footer">
+	                  <p>Alicja Marciniszyn</p>
+	                  <p>mgr Beata Strojna-Rozwód</p>
+	                  <p>16 632 11 53</p>
+	                  <p>sekretariat@lo-lubaczow.pl</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright webdeveloperzy L.O Lubaczów
+            </div>
+          </div>
+        </footer>
+
+
+          <!-- SKRYPTY -->
+
+      <script type="text/javascript" src="jquery-3.2.1.min.js" ></script>
+      <script type="text/javascript" src="materialize.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          var NavY = $('#topnav').offset().top;
+           
+          var stickyNav = function(){
+          var ScrollY = $(window).scrollTop();
+              
+          if (ScrollY > NavY) { 
+            $('#topnav').addClass('sticky');
+          } else {
+            $('#topnav').removeClass('sticky'); 
+          }
+          };
+           
+          stickyNav();
+           
+          $(window).scroll(function() {
+            stickyNav();
+          });
+          });
+</script>
+      <script>
+        $(function(){
+          $(".button-collapse").sideNav();
+          menuWidth: 350
+          closeOnClick: true
+          draggable: true
+        })
+	   </script>
+	    <script>
+     $('.dropdown-button').dropdown({
+      hover: true, // Activate on hover
+      belowOrigin: true, // Displays dropdown below the button
+
+    }
+  );
+      </script>
+		
+		<script type="text/javascript">
+		
+			var numer = Math.floor(Math.random()*5)+1;
+			
+			var timer1 = 0;
+			var timer2 = 0;
+			
+			function ustawslajd(nrslajdu)
+			{
+				clearTimeout(timer1);
+				clearTimeout(timer2);
+				numer = nrslajdu - 1;
+				
+				schowaj();
+				setTimeout("zmienslajd()", 500);
+				
+			}
+			
+			function schowaj()
+			{
+				$("#slider").fadeOut(500);
+			}
+		
+			function zmienslajd()
+			{
+				numer++; if (numer>5) numer=1;
+				
+				var plik = "<img src=\"slajdy/slajd" + numer + ".png\" />";
+				
+				document.getElementById("slider").innerHTML = plik;
+				$("#slider").fadeIn(500);
+				
+				timer1 = setTimeout("zmienslajd()", 5000);
+				timer2 = setTimeout("schowaj()", 4500);
+			
+			}
+			
+		</script>
+
+	</body>
+</html>

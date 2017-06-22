@@ -1,0 +1,345 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+nav
+{
+	background-color: #FFFFFF !important;
+	box-shadow: none !important;
+	line-height:66px !important;
+}
+nav .button-collapse
+{
+    height: 56px;
+	width: 56px;
+	background-color:#3366CC;
+}
+nav a.button-collapse
+{
+	display:inline !important;
+	margin-top: 2px;
+}
+nav .button-collapse:hover
+{
+	background-color:#FFF8E1;
+}
+#topnav
+{
+	width: 100%;
+	background-color: #dbdbdb !important;
+	font-size: 25px;
+	border-bottom:solid 2px #3366CC;
+	opacity: 0.9;
+}
+#topnav a
+{
+	color:#000000 !important;
+}
+
+.sticky
+{
+	width:100%;
+	position:fixed;
+	top: 0;
+	z-index:100;
+}
+#logo
+{
+	margin: 0px;
+	padding-top: 28px;
+	padding-bottom: 15px;
+	background: #dbdbdb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#dbdbdb, #495568); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#dbdbdb, #495568); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#dbdbdb, #495568); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dbdbdb, #495568); /* Standard syntax */
+}
+#logoimg img
+{
+	border:2px solid #3366CC;
+}
+#luckynumber
+{
+	margin:0px !important;
+}
+#number
+{
+	color:black;
+	text-align: center;
+	padding: 0px !important;
+}
+.numbertable
+{
+	padding: 0px !important;
+	margin-left: 7px !important ;
+}
+#nrtable
+{
+ border-radius:50px; 
+ border:solid 2px #000000;
+ padding:5px;
+ width: 37px;
+ position: relative; left: -20px; top: 0px;
+}
+
+#nrtable2
+{
+ border-radius:50px; 
+ border:solid 2px #000000;
+ padding:5px;
+ width: 37px;
+ position: relative; right: -5px; bottom: 0px;
+}
+#up
+{
+	text-align: center;
+	border-left: 1px dotted #000000;
+	padding: 0px !important;
+}
+.search form
+{
+	margin-right:5px;
+}
+#topnav #up:hover
+{
+	background-color: #596678;
+	color: white !important;
+}
+#topnav #up:hover:last-child
+{
+	background-color: #6a7789 !important;
+}
+input[type=text]
+{
+	font-size: 25px !important;
+	text-align: center;
+	color: black !important;	
+	margin:0 !important;
+	border-bottom: none !important;
+}
+input[type="text"]::-webkit-input-placeholder {
+  color: black;
+}
+input[type=text] focus
+{
+	border-bottom: none !important;	
+}
+.side-nav
+{
+	background-color: #004e87 !important;
+	color: white;
+	width: 350px !important;
+}
+.side-nav > li a
+{
+	font-size: 28px !important;
+	letter-spacing: 1px;
+	color: white !important;
+}
+.side-nav > li a:hover
+{
+	background-color: #2c6289 !important;
+}
+.side-nav > li #to:hover
+{
+	background-color: #2c6289 !important;
+}
+#slide-out  li i
+{
+	font-size: 34px !important;
+}
+#sidenavli
+{
+	background-color: #095f9e !important;
+}
+.material-icons
+{
+	font-size: 40px !important;
+}
+ul > li i
+{
+	font-size: 10px !important;
+}
+#to
+{
+	height: 90px !important;
+}
+.nav-wrapper
+{
+	background-color:#FFF8E1;
+	width:100%;
+}
+.nav-wrapper > #ulcont > ul > li:first-child
+{
+	border-left:2px solid #3366CC;
+}
+#ulcont
+{
+	width:84%;
+	margin-left:auto;
+	margin-right:auto;
+	line-height: 64px !important;
+}
+#ulcont > ul > li
+{
+	width:25%;
+}
+#ulcont > ul > li:first-child
+{
+	border-left:1px dotted #000000;
+}
+.dropdown-button
+{
+	background-color:#596679;
+	color:#000000;
+	font-size:24px;
+	border-right:1px dotted #000000;
+}
+.dropdown-content li > a
+{
+	color:#000000 !important;
+	font-size:20px;
+	background-color: #495568;
+	color: white !important;
+}
+.dropdown-content li > a:hover
+{
+	background-color: #7b889b !important;
+}
+#navdol
+{
+	margin-bottom:100px;
+	background: #495568; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#495568,#404a5b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#495568,#404a5b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#495568,#404a5b); 
+}
+#butt
+{
+	background: #465264; /* For browsers that do not support gradients */
+	color: #FFFFFF;
+	border-top: none;
+	text-align: center;
+	font-weight: 600;
+}
+#butt:hover	
+{
+	background-color: #6b778a !important;	
+}
+.margin
+{	height: 15px;
+    background-color: #404a5b;
+}
+#news
+{
+    margin:0px;
+    background: #404a5b; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#404a5b,#3d4656); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#404a5b,#3d4656); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#404a5b,#3d4656); 
+}
+#news1
+{
+    margin:0px;
+    background: #3d4656; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#3d4656,#292f3a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3d4656,#292f3a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3d4656,#292f3a); 
+}
+#newsimg img
+{
+	margin-left: 20px;
+	margin-top: 20px;
+	width:184px;
+	height:184px;
+	border-radius: 2px;
+}
+.horizontal
+{
+	border: 3px solid #3366CC; 
+}
+.header /* Nagłówek w newsach */ 
+{
+	text-align:left;
+	margin-top: 0px;
+	margin-top: 0px !important;
+}
+#czytajdalej
+{
+	text-align: right;
+	background-color: #FFFFFF;
+}
+#czytajdalej a
+{
+	color: black;
+}
+
+ #onasrow
+{
+  margin-bottom: 0px !important;
+  border-bottom: 5px solid #FFFFFF;
+  border-top: 5px solid #FFFFFF;
+  background: #404a5b; /* For browsers that do not support gradients */
+  background: -o-linear-gradient(#292f3a,#5c5f6d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#292f3a,#5c5f6d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#292f3a,#5c5f6d);
+}
+#onas
+{
+  background-color: #ffab3d;
+  color: white #ff9a00;
+  border:solid 2px #3366CC;
+
+}
+#onastxt
+{
+	background-color: #ffab40;
+  font-size: 16px;
+  text-align: justify;
+-webkit-box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+}
+#onasheader
+{
+	background-color: #ffab40;
+	-webkit-box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
+z-index:100;
+}
+#opisimg
+{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+} 
+.page-footer
+{
+	background-color: #29405A !important;
+}
+.page-footer .footer-copyright .container
+{
+	text-align: center;
+}
+#slider
+{
+	background-color: rgba(51,51,51,0.08) !important;
+}
+#slider img
+{
+    width:180px;
+    height:120px;
+}
+#footer-prawo
+{
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 20px;
+}
+.kontakt-footer
+{
+	line-height: 25px;
+}
