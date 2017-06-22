@@ -25,12 +25,19 @@ nav .button-collapse:hover
 {
 	background-color:#FFF8E1;
 }
+#topnav
+{
+	font-size: 25px;
+}
+#topnav1
+{
+	font-size: 20px !important;
+}
 #topnav,
 #topnav1
 {
 	width: 100%;
 	background-color: #dbdbdb !important;
-	font-size: 25px;
 	border-bottom:solid 2px #3366CC;
 	opacity: 0.9;
 }
@@ -39,10 +46,6 @@ nav .button-collapse:hover
 
 {
 	color:#000000 !important;
-}
-#topnav1
-{
-	font-size: 20px !important;
 }
 .sticky
 {
@@ -239,8 +242,14 @@ ul > li i
 	background-color: #6b778a !important;	
 }
 .margin
-{	height: 15px;
+{	
+	height: 15px;
     background-color: #404a5b;
+}
+#newsheader
+{
+	margin-top: 0px;
+	color: #FFFFFF;
 }
 #news
 {
@@ -254,16 +263,28 @@ ul > li i
 {
     margin:0px;
     background: #3d4656; /* For browsers that do not support gradients */
-    background: -o-linear-gradient(#3d4656,#292f3a); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#3d4656,#292f3a); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#3d4656,#292f3a); 
+    background: -o-linear-gradient(#3d4656,#323a47); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3d4656,#323a47); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3d4656,#323a47); 
+}
+#news2
+{
+	margin: 0px;
+	background: #323a47; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#323a47,#292f3a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#323a47,#292f3a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#323a47,#292f3a); 
+}
+#newscard
+{
+	height: 230px !important;
 }
 #newsimg img
 {
 	margin-left: 20px;
 	margin-top: 20px;
-	width:184px;
-	height:184px;
+	width:240px;
+	height:135px;
 	border-radius: 2px;
 }
 .horizontal
