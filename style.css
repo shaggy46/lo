@@ -40,7 +40,10 @@ nav .button-collapse:hover
 {
 	color:#000000 !important;
 }
-
+#topnav1
+{
+	font-size: 20px !important;
+}
 .sticky
 {
 	width:100%;
@@ -296,8 +299,8 @@ ul > li i
 #onas
 {
   background-color: #ffab3d;
-  color: white #ff9a00;
-  border:solid 2px #3366CC;
+  color: white #ff9a00;  border:solid 2px #3366CC;
+
 
 }
 #onastxt
@@ -312,7 +315,6 @@ box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
 #onasheader
 {
 	background-color: #ffab40;
-	border: 4px solid black;
 }
 #opisimg
 {
