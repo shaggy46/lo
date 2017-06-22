@@ -150,6 +150,10 @@ input[type=text] focus
 {
 	font-size: 34px !important;
 }
+#sideheader
+{
+	border-top: 2px solid #ffab3d;
+}
 #sidenavli
 {
 	background-color: #095f9e !important;

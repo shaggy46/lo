@@ -14,12 +14,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript">
-      function hide()
-      {
-        $('.button-collapse').sideNav('hide');
-      }
-    </script>
 
 
 	</head>
@@ -64,11 +58,10 @@
               <!-- O NAS -->
               
               <div id="button-collapse">
-              <p onclick="hide();">Kliknij tu!</p>
-              <li class="right-align"><span class="fa fa-times fa-3x" aria-hidden="true" style="padding: 5%;"></span></li>
+              <li class="right-align"><p onclick="hide();"><span class="fa fa-times fa-3x" aria-hidden="true" style="padding: 5%;"></span></p></li>
               </div>
               <li>
-                <a class="collapsible-header">O nas</a>
+                <a class="collapsible-header" id="sideheader">O nas</a>
                   <div class="collapsible-body">
                     <ul  id="sidenavli">
                       <li><a href="#!">O szkole</a></li>
@@ -80,7 +73,7 @@
               </li>
               <!-- DLA GIMNAZJALISTY -->
               <li>
-                <a class="collapsible-header">Dla gimnazjalisty</a>
+                <a class="collapsible-header" id="sideheader">Dla gimnazjalisty</a>
                 <div class="collapsible-body">
                   <ul id="sidenavli">
                     <li><a href="#!">Dlaczego my?</a></li>
@@ -90,7 +83,7 @@
               </li>
               <!-- DLA UCZNIA -->
               <li>
-                <a class="collapsible-header">Dla ucznia</a>
+                <a class="collapsible-header" id="sideheader">Dla ucznia</a>
                 <div class="collapsible-body">
                   <ul id="sidenavli">
                     <li><a href="#!">Samorząd uczniowski</a></li>
@@ -105,7 +98,7 @@
               </li>
               <!-- DLA RODZICA -->
               <li>
-                <a class="collapsible-header">Dla rodzica</a>
+                <a class="collapsible-header" id="sideheader" style="border-bottom: 2px solid #ffab3d;">Dla rodzica</a>
                 <div class="collapsible-body">
                   <ul id="sidenavli">
                      <li id="to"><a href="#!">Współpraca z rodzicami</a></li>
@@ -322,6 +315,12 @@
           });
           });
 </script>
+    <script type="text/javascript">
+      function hide()
+      {
+        $('.button-collapse').sideNav('hide');
+      }
+    </script>
       <script>
         $(function(){
           $(".button-collapse").sideNav();
