@@ -14,7 +14,7 @@ nav .button-collapse
 {
     height: 56px;
 	width: 56px;
-	background-color:#3366CC;
+	background-color: #3366CC;
 }
 nav a.button-collapse
 {
@@ -38,7 +38,7 @@ nav .button-collapse:hover
 {
 	width: 100%;
 	background-color: #dbdbdb !important;
-	border-bottom:solid 2px #3366CC;
+	border-bottom:solid 2px #8a8e99;
 	opacity: 0.9;
 }
 #topnav a,
@@ -59,15 +59,15 @@ nav .button-collapse:hover
 	margin: 0px;
 	padding-top: 28px;
 	padding-bottom: 15px;
-	background: #dbdbdb; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#dbdbdb, #495568); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#dbdbdb, #495568); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#dbdbdb, #495568); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#dbdbdb, #495568); /* Standard syntax */
+	background: #e2e2e6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e2e2e6, #0073b3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e2e2e6, #0073b3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e2e2e6, #0073b3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e2e2e6, #0073b3); /* Standard syntax */
 }
 #logoimg img
 {
-	border:2px solid #3366CC;
+	border:2px solid #8a8e99;
 }
 #luckynumber
 {
@@ -186,7 +186,7 @@ ul > li i
 }
 .nav-wrapper > #ulcont > ul > li:first-child
 {
-	border-left:2px solid #3366CC;
+	border-left:2px solid #8a8e99;
 }
 #ulcont
 {
@@ -224,14 +224,14 @@ ul > li i
 #navdol
 {
 	margin-bottom:100px;
-	background: #495568; /* For browsers that do not support gradients */
-    background: -o-linear-gradient(#495568,#404a5b); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#495568,#404a5b); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#495568,#404a5b); 
+	background: #0073b3; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#0073b3,#1176b3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0073b3,#1176b3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0073b3,#1176b3); 
 }
 #butt
 {
-	background: #465264; /* For browsers that do not support gradients */
+	background: #006eaa; /* For browsers that do not support gradients */
 	color: #FFFFFF;
 	border-top: none;
 	text-align: center;
@@ -254,26 +254,26 @@ ul > li i
 #news
 {
     margin:0px;
-    background: #404a5b; /* For browsers that do not support gradients */
-    background: -o-linear-gradient(#404a5b,#3d4656); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#404a5b,#3d4656); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#404a5b,#3d4656); 
+    background: #1176b3; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#1176b3,#005a93); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1176b3,#005a93); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1176b3,#005a93); 
 }
 #news1
 {
     margin:0px;
-    background: #3d4656; /* For browsers that do not support gradients */
-    background: -o-linear-gradient(#3d4656,#323a47); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#3d4656,#323a47); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#3d4656,#323a47); 
+    background: #005a93; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#005a93,#004d7a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#005a93,#004d7a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#005a93,#004d7a); 
 }
 #news2
 {
 	margin: 0px;
-	background: #323a47; /* For browsers that do not support gradients */
-    background: -o-linear-gradient(#323a47,#292f3a); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#323a47,#292f3a); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#323a47,#292f3a); 
+	background: #004d7a; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#004d7a,#003d66); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#004d7a,#003d66); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#004d7a,#003d66); 
 }
 #newscard
 {
@@ -289,7 +289,7 @@ ul > li i
 }
 .horizontal
 {
-	border: 3px solid #3366CC; 
+	border: 3px solid #8a8e99; 
 }
 .header /* Nagłówek w newsach */ 
 {
@@ -312,21 +312,21 @@ ul > li i
   margin-bottom: 0px !important;
   border-bottom: 5px solid #FFFFFF;
   border-top: 5px solid #FFFFFF;
-  background: #404a5b; /* For browsers that do not support gradients */
-  background: -o-linear-gradient(#292f3a,#5c5f6d); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#292f3a,#5c5f6d); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#292f3a,#5c5f6d);
+  background: #133d60/* For browsers that do not support gradients */
+  background: -o-linear-gradient(#133d60,#226eaf); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#133d60,#226eaf); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#133d60,#226eaf);
 }
 #onas
 {
-  background-color: #ffab3d;
-  color: white #ff9a00;  border:solid 2px #3366CC;
+  background-color: #ffc67d;
+  color: white #ff9a00;  border:solid 2px #8a8e99;
 
 
 }
 #onastxt
 {
-	background-color: #ffab40;
+	background-color: #eeb56c;
   font-size: 16px;
   text-align: justify;
 -webkit-box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
@@ -335,7 +335,7 @@ box-shadow: 10px 10px 151px -23px rgba(0,0,0,0.75);
 }
 #onasheader
 {
-	background-color: #ffab40;
+	background-color: #ffc67d;
 }
 #opisimg
 {
