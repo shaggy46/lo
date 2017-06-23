@@ -347,3 +347,13 @@ z-index:100;
 {
 	line-height: 25px;
 }
+
+a#gototop {
+   position: fixed !important;
+   bottom: 9px !important;
+   right: 9px !important;
+   padding: 0 !important;
+   width: 40px !important;
+   height: 40px !important;
+   background: url(strzałka.jpg) no-repeat center center !important;
+}
